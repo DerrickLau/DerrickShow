@@ -1,0 +1,82 @@
+menu "Star Wars Galaxys Edge Location Beacon Choices"
+
+menu "WDW: Marketplace"
+        config MARKETPLACE
+            bool "Walt Disney World: Star Wars Galaxys Edge Marketplace"
+            help
+                Act as Marketplace beacon.
+endmenu
+
+menu "WDW: Behind Droid Depot"
+        config BEHIND_DROID_DEPOT
+            bool "Walt Disney World: Star Wars Galaxys Edge Behind Droid Depot"
+            help
+                Act as behind Droid Depot beacon.
+endmenu
+		
+menu "WDW: Resistance"
+		config RESISTANCE
+			bool "Walt Disney World: Star Wars Galaxys Edge Resistance Area"
+			help
+				Act as Resistance beacon.
+endmenu
+		
+menu "Unknown location"
+		config UNKNOWN
+			bool "Unknown area of Galaxys Edge"
+			help
+				Act as Unknown area beacon.
+endmenu
+
+menu "Droid Depot"
+		config DROID_DEPOT_1
+			bool "Walt Disney World: Star Wars Galaxys Edge Droid Depot"
+			help
+				Act as main Droid Depot beacon.
+endmenu
+		
+menu "Dok Ondars Den of Antiquities"
+		config DOK_ONDAR
+			bool "Walt Disney World: Star Wars Galaxys Edge Dok Ondars Den of Antiquities"
+			help
+				Act as Dok Ondars Den of Antiquities beacon.
+endmenu
+		
+menu "First Order area"
+		config FIRST_ORDER
+			bool "Walt Disney World: Star Wars Galaxys Edge First Order Area"
+			help
+				Act as First Order area beacon.
+endmenu
+
+menu "Disneyland Droid Depot"
+		config DISNEYLAND_DROID_DEPOT
+			bool "Disneyland: Star Wars Galaxys Edge Droid Depot"
+			help
+				Act as Disneyland Droid Depot beacon.
+endmenu
+
+menu "Walt Disney World Marketplace"
+		config WALT_DISNEY_WORLD_MARKETPLACE
+			bool "Walt Disney World: Star Wars Galaxys Edge Marketplace"
+			help
+				Act as Walt Disney World Marketplace.
+endmenu
+
+menu "Disneyland Ogas Cantina"
+		config DISNEYLAND_OGAS_CANTINA
+			bool "Disneyland: Star Wars Galaxys Edge Ogas Cantina"
+			help
+				Act as Disneyland Ogas Cantina beacon.
+endmenu
+
+menu "Ogas Cantina"
+		config OGAS_CANTINA
+			bool "Walt Disney World: Star Wars Galaxys Edge Ogas Cantina"
+			help
+				Act as Walt Disney World Ogas Cantina beacon.
+endmenu
+
+endmenu
+
+
